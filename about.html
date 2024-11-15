@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us - Gym Web Development</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background: linear-gradient(135deg, #0fd850 0%, #f9f047 100%);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+    
+            header h1 {
+                font-size: 3rem;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+        
+
+        /* Section Styling */
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            color: black;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+            position: relative;
+        }
+
+        h2::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 4px;
+            background-color: #ff416c;
+            margin-top: 8px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .feature-list ul {
+            list-style-type: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .feature-list ul li {
+            background: #f9f9f9;
+            padding: 15px;
+            margin: 10px;
+            flex: 1 1 45%;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .feature-list ul li:hover {
+            background-color: #ffefef;
+        }
+
+        /* CTA Styling */
+        .cta {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .cta a {
+            background-color: #ff4b2b;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 75, 43, 0.4);
+        }
+
+        .cta a:hover {
+            background-color: #ff416c;
+            box-shadow: 0 5px 15px rgba(255, 65, 108, 0.4);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .feature-list ul li {
+                flex: 1 1 100%;
+            }
+
+            .cta a {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>About Us</h1>
+        <p>Prefect Platform to Start Your Fitness Journey</p>
+    </header>
+
+    <section>
+        <h2>Who We Are</h2>
+        <p>Welcome to <strong> PeakFit</strong>, a digital platform built with a passion for fitness and
+            cutting-edge web development. We specialize in creating seamless, interactive, and dynamic web experiences
+            tailored specifically for gyms, fitness studios, and personal trainers.</p>
+        <p>With our full stack web development expertise, we’ve designed <strong>PeakFit</strong> to help
+            fitness businesses connect with their clients effortlessly, manage schedules, and showcase their services in
+            a user-friendly way.</p>
+
+        <h2>Our Mission</h2>
+        <p>Our mission is to empower fitness bwith a digital presence that reflects their energy and
+            dedication. Whether you're a small local gym or a large fitness chain, we provide modern web solutions that
+            help you to achieve your fitness goal, manage your workout, diet and grow your Muscle.</p>
+
+        <h2>Our Services</h2>
+        <p> </p>
+
+        <div class="feature-list">
+            <ul>
+                <li><strong>Certified and Verified Trainer:</strong> Professionals with recognized fitness certifications who can guide members safely and effectively.
+                </li>
+                <li><strong>Best Equipments:</strong> Includes free weights, resistance machines, cardio machines (treadmills, ellipticals, rowing machines), and functional training tools (kettlebells, resistance bands)..</li>
+                <li><strong>Variety of Group Fitness Classes:</strong>Options like yoga, Pilates, spin, Zumba, HIIT (High-Intensity Interval Training), strength training, and boot camps to cater to different preferences and fitness levels..</li>
+                <li><strong>Personailse Diet:</strong> Diet plan as per you are Fitness Goal.(veg/Non Veg)</li>
+                <li><strong>Digital and Technological Integration:</strong>Best Platform for you Fitness Journey.
+                </li>
+            </ul>
+        </div>
+
+        <h2>Features Built for You</h2>
+        <p>Our platform is designed to make fitness easy and affordable. Key features include:</p>
+
+        <div class="feature-list">
+            <ul>
+                <li>Prefect diet and workout guide from the well experience trainers.</li>
+                <li>Options like yoga, Pilates, spin, Zumba, HIIT, strength training...</li>
+                <li>Trainer profiles with bios, certifications, and availability.</li>
+                <li>Progress tracking for members to follow their fitness goals.</li>
+                <li>Social media integration for easy sharing of events and promotions.</li>
+                <li>Performance analytics for tracking class popularity and membership trends.</li>
+            </ul>
+        </div>
+
+        <h2>Why Choose Us?</h2>
+        <p>We create customized solutions that fit your gym’s unique needs. From
+            user-centered design to scalable systems, we ensure that your fitness can thrive in the digital age.</p>
+
+        <p>Our platform offers customizable features, ongoing technical support, and the ability to support your fitness journey.</p>
+
+        <div class="cta">
+            <p>Ready to transform your gym’s online presence?</p>
+            <a href="contact.html">Contact Us Today</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
